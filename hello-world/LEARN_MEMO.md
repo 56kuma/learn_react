@@ -37,4 +37,7 @@ npm run dev
 * `package-lock.json` … インストールしたパッケージの依存情報を保存しておくためのロックファイル。
 
 ### プロジェクト初期値
-* `document.getElementById('root')`が、`index.html`の中の
+* `document.getElementById('root')`が、`index.html`の中の`<dev id="root"></dev>`に対応している。
+* Reactで作られるアプリケーションはすべてコンポーネントの組み合わせで構成される。
+  * コンポーネント名は必ずPascalケースで名付けられる。Appとか。
+* `.tsx` … TypeScriptベースのJSXファイル
