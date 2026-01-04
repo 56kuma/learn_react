@@ -41,3 +41,13 @@ npm run dev
 * Reactで作られるアプリケーションはすべてコンポーネントの組み合わせで構成される。
   * コンポーネント名は必ずPascalケースで名付けられる。Appとか。
 * `.tsx` … TypeScriptベースのJSXファイル
+* 📝`/mnt/c`配下だとHMR（Hot Module Replacemen）が効かなかった。
+
+### pnpm
+* performance npm
+* `node_modules/.pnpm`ディレクトリにパッケージの実態を置く
+  * `node_modules/`直下にはそこからシンボリックリンクを貼る
+    * 結果、依存が重複するパッケージがあっても一つしか置かれない
+* `package.json - devDependencies`は開発環境しかインストールされない
+* pnpmでプロジェクトを作り直す
+*  
